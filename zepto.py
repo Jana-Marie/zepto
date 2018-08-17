@@ -7,7 +7,6 @@ import urllib
 import sys
 
 
-# create a subclass and override the handler methods
 class MyHTMLParser(HTMLParser):
     def init(self):
         gotWeekendDieShot = 0
